@@ -1,0 +1,82 @@
+/* Basic reset and styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  #rgbDisplay {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  #score {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #message {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 2px solid #ddd;
+  }
+  
+  .square:hover {
+    transform: scale(1.05);
+    border-color: #888;
+  }
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  

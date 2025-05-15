@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RGB Color Guesser Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RGB Color Guesser 🎯</h1>
+
+    <!-- Display the target RGB value to guess -->
+    <div id="rgbDisplay">RGB(?, ?, ?)</div>
+
+    <!-- Scoreboard -->
+    <div id="score">Points: 0</div>
+
+    <!-- Message area for feedback -->
+    <p id="message">Click a color to guess!</p>
+
+    <!-- Color choices will appear here -->
+    <div class="squares" id="squaresContainer"></div>
+
+    <!-- Button to reset game -->
+    <button onclick="startGame()">Play Again 🔁</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
